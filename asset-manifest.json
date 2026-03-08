@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/kavitha-welding-works/static/css/main.077daff0.css",
-    "main.js": "/kavitha-welding-works/static/js/main.82663485.js",
+    "main.js": "/kavitha-welding-works/static/js/main.7a019ad4.js",
     "static/js/453.b37cfacc.chunk.js": "/kavitha-welding-works/static/js/453.b37cfacc.chunk.js",
+    "static/media/gate1.png": "/kavitha-welding-works/static/media/gate1.a827292e5b43edf0f250.png",
+    "static/media/window1.png": "/kavitha-welding-works/static/media/window1.dc59e54dd6472fc32bdd.png",
+    "static/media/gate2.png": "/kavitha-welding-works/static/media/gate2.b6917d450d12ed8ca99e.png",
+    "static/media/door1.png": "/kavitha-welding-works/static/media/door1.7f26801933a82313d211.png",
+    "static/media/stair1.png": "/kavitha-welding-works/static/media/stair1.93f8cbea6b83e5cf74b9.png",
+    "static/media/balcony1.png": "/kavitha-welding-works/static/media/balcony1.c545b465378fa1444010.png",
     "static/media/ChatGPT Image Mar 8, 2026, 10_30_09 AM.png": "/kavitha-welding-works/static/media/ChatGPT Image Mar 8, 2026, 10_30_09 AM.5eb13ed7b9ea2c2eb440.png",
     "index.html": "/kavitha-welding-works/index.html",
     "main.077daff0.css.map": "/kavitha-welding-works/static/css/main.077daff0.css.map",
-    "main.82663485.js.map": "/kavitha-welding-works/static/js/main.82663485.js.map",
+    "main.7a019ad4.js.map": "/kavitha-welding-works/static/js/main.7a019ad4.js.map",
     "453.b37cfacc.chunk.js.map": "/kavitha-welding-works/static/js/453.b37cfacc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.077daff0.css",
-    "static/js/main.82663485.js"
+    "static/js/main.7a019ad4.js"
   ]
 }
