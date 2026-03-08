@@ -1,4 +1,16 @@
 {
+  "name": "kavitha-welding-works",
+  "version": "1.0.0",
+  "homepage": "https://thirumalai45.github.io/kavitha-welding-works",
+  "scripts": {
+    "start": "cd workshop-wensite && npm start",
+    "build": "cd workshop-wensite && npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d workshop-wensite/build"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }

@@ -2,6 +2,7 @@
   "name": "workshop-wensite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thirumalai45.github.io/kavitha-welding-works",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

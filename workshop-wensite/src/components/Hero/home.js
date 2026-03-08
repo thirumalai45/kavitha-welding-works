@@ -65,11 +65,11 @@ const Hero = () => {
     const filteredImages = galleryImages.filter(img => img.category === galleryFilter);
 
     return (
-        <div className="hero-shell">
+        <div className="hero-shell" id="home">
             <header className="navbar">
                 <nav className="nav-container">
                     <div className="nav-logo">
-                        <a href="/"><img src={logoImg} alt="Kavitha Welding" className="logo-img" /></a>
+                        <a href="#home"><img src={logoImg} alt="Kavitha Welding" className="logo-img" /></a>
                     </div>
 
                     <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
@@ -79,7 +79,7 @@ const Hero = () => {
                     </div>
 
                     <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-                        <li><a href="/" onClick={() => setIsMenuOpen(false)}>Home</a></li>
+                        <li><a href="#home" onClick={() => setIsMenuOpen(false)}>Home</a></li>
                         <li><a href="#about" onClick={() => setIsMenuOpen(false)}>About Us</a></li>
                         <li><a href="#photos" onClick={() => setIsMenuOpen(false)}>Photos</a></li>
                         <li><a href="#company" onClick={() => setIsMenuOpen(false)}>Company</a></li>
