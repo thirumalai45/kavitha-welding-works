@@ -2,6 +2,14 @@ import React, { useState } from 'react';
 import logoImg from './images/ChatGPT Image Mar 8, 2026, 10_30_09 AM.png';
 import './Hero.css';
 
+// Import gallery images
+import balcony1 from '../../assets/images/gallery/balcony1.png';
+import door1 from '../../assets/images/gallery/door1.png';
+import gate1 from '../../assets/images/gallery/gate1.png';
+import gate2 from '../../assets/images/gallery/gate2.png';
+import stair1 from '../../assets/images/gallery/stair1.png';
+import window1 from '../../assets/images/gallery/window1.png';
+
 const Hero = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [galleryFilter, setGalleryFilter] = useState('installation');
@@ -48,18 +56,18 @@ const Hero = () => {
     };
 
     const galleryImages = [
-        { src: '/images/gallery/gate1.png', category: 'installation' },
-        { src: '/images/gallery/gate2.png', category: 'installation' },
-        { src: '/images/gallery/stair1.png', category: 'installation' },
-        { src: '/images/gallery/window1.png', category: 'installation' },
-        { src: '/images/gallery/balcony1.png', category: 'design' },
-        { src: '/images/gallery/door1.png', category: 'design' },
-        { src: '/images/gallery/gate1.png', category: 'design' },
-        { src: '/images/gallery/gate2.png', category: 'design' },
-        { src: '/images/gallery/stair1.png', category: 'installation' },
-        { src: '/images/gallery/window1.png', category: 'design' },
-        { src: '/images/gallery/balcony1.png', category: 'installation' },
-        { src: '/images/gallery/door1.png', category: 'installation' }
+        { src: gate1, category: 'installation' },
+        { src: gate2, category: 'installation' },
+        { src: stair1, category: 'installation' },
+        { src: window1, category: 'installation' },
+        { src: balcony1, category: 'design' },
+        { src: door1, category: 'design' },
+        { src: gate1, category: 'design' },
+        { src: gate2, category: 'design' },
+        { src: stair1, category: 'installation' },
+        { src: window1, category: 'design' },
+        { src: balcony1, category: 'installation' },
+        { src: door1, category: 'installation' }
     ];
 
     const filteredImages = galleryImages.filter(img => img.category === galleryFilter);
@@ -187,13 +195,13 @@ const Hero = () => {
 
                     <div className="about-details-grid">
                         <div className="detail-item">
-                            <img src="/images/gallery/door1.png" alt="Iron Door Detail" />
+                            <img src={door1} alt="Iron Door Detail" />
                         </div>
                         <div className="detail-item">
-                            <img src="/images/gallery/stair1.png" alt="Stair Railing Detail" />
+                            <img src={stair1} alt="Stair Railing Detail" />
                         </div>
                         <div className="detail-item">
-                            <img src="/images/gallery/gate1.png" alt="Gate Detail" />
+                            <img src={gate1} alt="Gate Detail" />
                         </div>
                     </div>
                 </div>
