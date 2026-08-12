@@ -42,7 +42,11 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
+  "overrides": {
+    "rimraf": "^3.0.2",
+    "glob": "^7.2.3"
+  },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   }
 }
